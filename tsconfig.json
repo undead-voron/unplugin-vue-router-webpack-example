@@ -10,6 +10,6 @@
   ],
   "moduleFileExtensions": ["ts", "js", "vue", "json"],
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "."
   }
 }
