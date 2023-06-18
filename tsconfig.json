@@ -8,6 +8,7 @@
     "./typed-router.d.ts",
     "./auto-imports.d.ts"
   ],
+  "moduleFileExtensions": ["ts", "js", "vue", "json"],
   "compilerOptions": {
     "baseUrl": ".",
   }
