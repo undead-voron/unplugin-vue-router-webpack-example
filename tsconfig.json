@@ -1,0 +1,14 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "shims-vue.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "./shim-vue.d.ts",
+    "./typed-router.d.ts",
+    "./auto-imports.d.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+  }
+}
