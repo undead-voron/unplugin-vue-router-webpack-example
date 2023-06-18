@@ -3,9 +3,11 @@
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "start": "npm run build && serve -s dist"
   },
   "dependencies": {
+    "serve": "^14.2.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.2"
   },
